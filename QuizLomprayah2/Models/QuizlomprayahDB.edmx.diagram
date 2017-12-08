@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e2e9311f623847c4abff39b3c4e5c0b4" Name="Diagram1">
+        <EntityTypeShape EntityType="QuizLomprayahModel.book" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.BranchTable" Width="1.5" PointX="1.5" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.EmployeeInformation" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.EssayTest" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.MultipleChoices" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.News" Width="1.5" PointX="6.125" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.Position_Exam" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.PositionTable" Width="1.5" PointX="1.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.ScoreUser" Width="1.5" PointX="6" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.sysdiagrams" Width="1.5" PointX="8" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizLomprayahModel.TrueFalse" Width="1.5" PointX="3" PointY="18.25" IsExpanded="true" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_EssayTest_book" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_MultipleChoices_book" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_Position_Exam_book" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_ScoreUser_book" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_TrueFalse_book" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_BranchTable_PositionTable" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_EmployeeInformation_BranchTable" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_EmployeeInformation_PositionTable" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_News_EmployeeInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizLomprayahModel.FK_ScoreUser_EmployeeInformation" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
